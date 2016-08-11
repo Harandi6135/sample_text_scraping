@@ -19,3 +19,5 @@ def TextScrape():
         text_file.append(''.join(text.findAll(text=True)))
     for item in text_file:
         textfile.write(item)
+    
+TextScrape()        
